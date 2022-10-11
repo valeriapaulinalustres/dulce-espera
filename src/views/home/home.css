@@ -1,0 +1,162 @@
+.home-first-section-container {
+    background: var(--cream) url(../../../public/img/pregnancy.jpg) center center
+      no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .pregnancy-background {
+    display: none;
+  }
+  
+  .home-first-section-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 100px 10px;
+  }
+  
+  .home-first-section-inner-container h2 {
+    text-align: center;
+    color: var(--dark-aqua);
+    font-size: 25px;
+    margin: 20px 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+  }
+  
+  .home-second-section h3 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+  }
+  
+  .home-first-section-inner-container h6 {
+    text-align: center;
+    color: var(--dark-aqua);
+    font-size: 10px;
+    margin: 10px 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+  }
+  
+  .home-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all 2s ease-in-out 0s;
+  }
+  
+  .home-img:hover {
+    scale: 2;
+    border-radius: 15%;
+    box-shadow: 3px 3px 3px var(--dark-aqua);
+  }
+  
+  .home-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-input {
+    background-color: white;
+    border: 1px solid var(--dark-cream);
+    border-radius: 30px;
+    padding: 5px;
+    width: 185px;
+    box-shadow: 3px 3px 3px #ddb85a;
+  }
+  
+  ::placeholder {
+    color: var(--dark-aqua);
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .home-second-section {
+    background-color: var(--light-aqua);
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .home-second-section p {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .home-second-section img {
+    margin: 20px 0;
+  }
+  
+  @keyframes jump {
+    from {
+      top: 0px;
+    }
+    to {
+      top: 20px;
+    }
+  }
+  
+  .animated-logo {
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    position: relative;
+    animation-iteration-count: infinite;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home-second-section {
+      padding: 0 10%;
+    }
+    .home-first-section-container {
+      background: var(--cream);
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 10% 0 10%;
+    }
+    .pregnancy-background {
+      display: inline-block;
+      height: calc(100vh - 80px);
+      padding: 0;
+      margin: 0;
+      transform: scaleX(-1);
+    }
+  
+    .pregnancy-background-before {
+      background-color: var(--medium-cream);
+      height: calc(100vh - 80px);
+      width: 30px;
+      content: "";
+      position: absolute;
+      z-index: 5;
+    }
+  
+    .home-first-section-inner-container {
+      margin-bottom: 0;
+    }
+  
+    .home-first-section-inner-container h6 {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  

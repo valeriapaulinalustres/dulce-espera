@@ -1,0 +1,137 @@
+.header-container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .navbar-container {
+    background-color: var(--medium-cream);
+    border-radius: 50px;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+  }
+  
+  .navbar-logo-container {
+    width: 180px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-logo-container h1 {
+    margin: 0px 5px;
+    color: white;
+    font-family: "Sacramento", cursive;
+    font-size: 26px;
+    font-weight: regular;
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+  }
+  
+  .navbar-share-translate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-navbar {
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    box-shadow: 3px 3px 3px #ddb85a;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 1s;
+  }
+  
+  .icon-navbar:hover {
+    background-color: var(--light-aqua);
+    box-shadow: 3px 3px 3px #2d787e;
+  }
+  
+  .header-share-container {
+    position: absolute;
+    right: 2.5%;
+    top: 70px;
+  }
+  
+  .goog-te-gadget {
+    background-color: var(--medium-cream);
+    color: var(--dark-cream);
+    font-size: 1px;
+    margin: 0 10px;
+  }
+  
+  .goog-logo-link {
+    display: none;
+  }
+  
+  .goog-te-combo {
+    border-radius: 30px;
+    border: 1px solid var(--medium-cream);
+    color: var(--dark-aqua);
+    width: 80px;
+    font-size: 8px;
+    padding: 3px;
+    box-shadow: 3px 3px 3px #ddb85a;
+  }
+  
+  .goog-te-combo p {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar-container {
+      height: 65px;
+    }
+  
+    .navbar-logo-container {
+      margin: 5px 5px 5px 100px;
+      width: fit-content;
+    }
+  
+    .navbar-logo-container h1 {
+      font-size: 34px;
+    }
+    .navbar-share-translate-container {
+      margin: 5px 100px 5px 5px;
+    }
+  
+    .goog-te-combo {
+      width: fit-content;
+      font-size: 14px;
+      padding: 5px;
+    }
+  
+    .icon-navbar {
+      margin: 0 5px;
+      width: 45px;
+      height: 45px;
+    }
+  
+    .header-share-container {
+      top: 83px;
+      right: 20%;
+    }
+  }
+  

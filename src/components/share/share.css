@@ -1,0 +1,26 @@
+.share-inner-container {
+    background-color: var(--medium-cream);
+    border-radius: 30px;
+    width: fit-content;
+    border: none;
+    padding: 7px 2px 0px 2px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    box-shadow: 3px 3px 3px #ddb85a;
+    padding: 3px 3px 0 3px;
+  }
+  
+  .share-inner-container img {
+    margin: 2px;
+    transition: all 0.5s;
+  }
+  
+  .share-inner-container img:hover {
+    background-color: var(--light-aqua);
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cream: #fff3d6;
+  --medium-cream: #ffe8ad;
+  --dark-cream: #ffd569;
+
+  --light-aqua: #4fd5de;
+  --dark-aqua: #49c1c9;
+}
+
+.btn-light-aqua {
+  background-color: var(--light-aqua);
+  border-radius: 30px;
+  width: 80px;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 3px 3px 3px #2d787e;
+  font-family: "Raleway", sans-serif;
+  transition: all 1s;
+}
+
+.btn-light-aqua:hover {
+  background-color: var(--medium-cream);
+  color: var(--dark-aqua);
+}

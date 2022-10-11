@@ -1,0 +1,282 @@
+.drug-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .drug-first-section-container {
+    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 100px 20px 0px 20px;
+    width: 100%;
+  }
+  
+  .drug-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--dark-aqua);
+    margin-bottom: 20px;
+  }
+  
+  .actual-category-container {
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid var(--dark-cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0px;
+    box-shadow: 3px 3px 3px #ddb85a;
+  }
+  
+  .verde {
+    color: green;
+  }
+  
+  .actual-category-text {
+    color: var(--dark-aqua);
+    text-align: center;
+    margin: 10px 0 30px 0;
+  }
+  
+  .risk-categories {
+    color: var(--dark-aqua);
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .drug-circles-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--dark-cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 3px 3px 3px #ddb85a;
+  }
+  
+  .no-clasification {
+    text-align: center;
+    color: var(--dark-aqua);
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+  }
+  
+  .green {
+    color: #5ade4f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .green:hover {
+    background-color: #5ade4f;
+    color: white;
+  }
+  
+  .yellow {
+    color: #ded84f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .yellow:hover {
+    background-color: #ded84f;
+    color: white;
+  }
+  
+  .orange {
+    color: #de934f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .orange:hover {
+    background-color: #de934f;
+    color: white;
+  }
+  
+  .red {
+    color: #de4f4f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .red:hover {
+    background-color: #de4f4f;
+    color: white;
+  }
+  
+  .black {
+    color: #9049c9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .black:hover {
+    background-color: #9049c9;
+    color: white;
+  }
+  
+  .category-explanation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid var(--dark-cream);
+    max-width: 90%;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 3px 3px 3px #ddb85a;
+    padding: 10px;
+  }
+  
+  .category-explanation p {
+    text-align: center;
+    color: var(--dark-aqua);
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+  }
+  
+  .drug-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    animation-name: scale-logo;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes scale-logo {
+    from {
+      scale: 0;
+    }
+    to {
+      scale: 1;
+    }
+  }
+  
+  .not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-container {
+    background-color: var(--medium-cream);
+    box-shadow: 3px 3px 3px #ddb85a;
+    border-radius: 50%;
+    transition: all 1s;
+  }
+  
+  .search-container:hover {
+    background-color: var(--light-aqua);
+    box-shadow: 3px 3px 3px #2d787e;
+  }
+  
+  .not-found-container p {
+    text-align: center;
+    color: var(--dark-aqua);
+    padding: 5px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .not-found-container img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+  
+  .drug-second-section-container {
+    background-color: var(--light-aqua);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px 20px 20px;
+  }
+  
+  .drug-second-section-title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .drug-second-section-container p {
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+    margin: 20px 0;
+  }
+  
+  .drug-second-section-container button {
+    background-color: var(--dark-aqua);
+    color: white;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 3px 3px 3px #2d787e;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .drug-first-section-container {
+      height: fit-content;
+      padding: 100px 10% 0 10%;
+    }
+  
+    .drug-second-section-container {
+      padding: 50px 10% 20px 10%;
+    }
+  
+    .category-explanation {
+      max-width: 60%;
+    }
+  }
+  
