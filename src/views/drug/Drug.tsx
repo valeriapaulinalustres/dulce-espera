@@ -78,13 +78,13 @@ function Drug() {
         {inputValue && <p className="drug-name">{inputValue}</p>}
         {noErrorData ? (
           <div className="actual-category-container">
-            {inputLetter !== undefined ? (
+            {inputLetter !== undefined || "" ? (
               <p
                 className={
                   letters.find((el: any) => el.letter === inputLetter)?.color
                 }
               >
-                Categoría {inputLetter}
+                Category {inputLetter}
               </p>
             ) : (
               <p className="no-clasification">No clasification</p>
